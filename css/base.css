@@ -32,6 +32,7 @@
   border-top: 0px none transparent;
   background-color: #171717;
   font-family: 'Kastelov axiforma';
+  overflow-x: hidden;
   color: #fff;
 }
 
@@ -274,7 +275,7 @@
   display: flex;
   width: 100%;
   height: 100px;
-  max-width: 100%;
+  /* max-width: 100%; */
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -288,7 +289,7 @@
 .intro {
   overflow: hidden;
   width: 100%;
-  max-width: none;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding: 213px 92px;
@@ -882,7 +883,7 @@
 .s30 {
   width: 100%;
   height: 60px;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .text-block-2 {
@@ -952,9 +953,9 @@
 }
 
 .s200 {
-  width: 100%;
-  height: 100px;
-  max-width: none;
+  /* width: 100%; */
+  /* height: 100px; */
+  /* max-width: none; */
 }
 
 .image24 {
@@ -972,7 +973,7 @@
 }
 
 .container-6 {
-  max-width: 90%;
+  /* max-width: 90%; */
 }
 
 .flex {
@@ -1534,7 +1535,7 @@
 
   .intro {
     width: 100%;
-    max-width: 100%;
+    /* max-width: 100%; */
     padding-top: 113px;
     padding-bottom: 113px;
     border-top-width: 0px;
@@ -1876,8 +1877,10 @@
   }
 
   .download {
-    display: block;
+    display: flex;
     text-align: center;
+    flex-flow: row;
+    align-items: self-end;
   }
 
   .dicon {
@@ -1922,8 +1925,8 @@
 
   .body {
     display: block;
-    max-height: 100%;
-    max-width: 100%;
+    /* max-height: 100%; */
+    /* max-width: 100%; */
     grid-auto-flow: row;
     grid-auto-columns: 1fr;
     -ms-grid-columns: 1fr 1fr;
@@ -1985,13 +1988,13 @@
   }
 
   .intro {
-    overflow: hidden;
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 37px;
-    padding-bottom: 54px;
-    padding-left: 35px;
+    /* overflow: hidden; */
+    width: 100%;
+    margin: 0 auto;
+    /* margin-left: auto; */
+    /* padding-right: 10px; */
+    padding-bottom: 12px;
+    /* padding-left: 35px; */
     border-top-width: 0px;
     background-color: #171717;
   }
@@ -2032,7 +2035,7 @@
 
   .feature-1 {
     max-width: 90%;
-    padding: 157px 16px 205px;
+    padding: 130px 16px 146px;
   }
 
   .image-11 {
@@ -2066,7 +2069,7 @@
   }
 
   .section {
-    max-width: 90%;
+    /* max-width: 90%; */
   }
 
   .footer {

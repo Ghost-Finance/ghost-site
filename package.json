@@ -4,7 +4,8 @@
   "description": "landing page Ghost finance",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Ghost-Finance/ghost-site/issues"
   },
-  "homepage": "https://github.com/Ghost-Finance/ghost-site#readme"
+  "homepage": "https://github.com/Ghost-Finance/ghost-site#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
 }
